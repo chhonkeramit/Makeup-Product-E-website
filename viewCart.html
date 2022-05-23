@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    
+    
+
+
+    <title>Shoping website</title>
+</head>
+<body>
+    <!-- Navigation bar start -->
+  <div class = "navigation_buttons">
+     
+    
+    <!-- <a style="color: black;" href="index.html">Home</a> -->
+   
+
+</div>
+<!-- Navigation bar ends -->
+    
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items" id="cart-items">
+        </div>
+        <div class="cart-total">
+            <p>*13% tax on overall purchase is decided by government</p>
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" onclick="Buy()" type="button">PURCHASE</button>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="js/operation.js"></script>
+
+</body>
+</html>

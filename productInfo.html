@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Info</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/productInfo.js"></script>
+</head>
+<body>
+<!-- Navigation bar start -->
+<div class = "navigation_buttons">
+     
+    <script>
+        // const KEY = "product_key";
+
+const productList = JSON.parse(localStorage.getItem(KEY));
+    </script>
+    <a  href="viewCart.html" style="color: black;">View Cart<button id="d_change"><script>document.getElementById("d_change").innerText = productList.length</script></button></a>
+   
+
+</div>
+<!-- Navigation bar ends -->
+
+    <div class="center">
+        <h1> Product Information </h1>
+        <div id="Product"> </div>
+    </div>
+
+    <div class="cart-items" id="cart-items">
+    </div>
+</body>
+</html>
